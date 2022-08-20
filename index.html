@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form-image">
+            <img src="assets/img/undraw_team_up_re_84ok.svg" alt="imagem">
+        </div>
+        <div class="form">
+            <form action="#">
+                <div class="form-header">
+                    <div class="title">
+                        <h1>Sign-Up</h1>
+                    </div>
+                    <div class="login-button">
+                        <button><a href="#">Sign-In</a></button>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <div class="input-box">
+                        <label for="firstName">First Name</label>
+                        <input type="text" name="firstName" id="firstName" placeholder="Enter your first name" required>
+                        <i class="fas fa-exclamation-circle"></i>
+                        <i class="fas fa-check-circle"></i>
+                        <small>Mensagem de erro</small>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="lastName">Last Name</label>
+                        <input type="text" name="lastName" id="lastName" placeholder="Enter your last name" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="number">Mobile</label>
+                        <input type="tel" name="number" id="number" placeholder="(xx) xxxxx-xxxx" required>
+                    </div> 
+
+                    <div class="input-box">
+                        <label for="password">Password</label>
+                        <input type="password" name="password" id="password" placeholder="Enter your password" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="confirmPassword">Confirm your password</label>
+                        <input type="password" name="confirmPassword" id="confirmPassword" placeholder="Enter your password again" required>
+                    </div>
+                </div>
+
+                <div class="gender-inputs">
+                    <div class="gender-title">
+                        <h6>Gender</h6>
+                    </div>
+
+                    <div class="gender-group">
+                        <div class="gender-input">
+                            <input type="radio" name="gender" id="female">
+                            <label for="female">Female</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input type="radio" name="gender" id="male">
+                            <label for="male">Male</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input type="radio" name="gender" id="others">
+                            <label for="others">Others</label>
+                        </div>
+
+                        <div class="gender-input">
+                            <input type="radio" name="gender" id="none">
+                            <label for="none">Prefer not to say</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="continue-button">
+                    <button type="submit"><a href="#">Enviar</a></button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/a2e024f0f4.js" crossorigin="anonymous"></script>
+</body>
+</html>
